@@ -39,4 +39,5 @@ for n in range(1,11):
         x = x / 2
     else:
         x = 3*x + 1
-    print("a(", n, ") = ",x)
+    #print("a(", n, ") = ",x)
+    print(f"a({n}) = {x}")
